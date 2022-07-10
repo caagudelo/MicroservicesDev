@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servicios.api.Libreria", "Servicios.api.Libreria\Servicios.api.Libreria.csproj", "{FF4FC2C6-5F3C-4365-84AC-DF3D9DAA4765}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servicios.api.Seguridad", "Servicios.api.Seguridad\Servicios.api.Seguridad.csproj", "{E3BFAEFC-D3C4-4926-8A3D-9BC85BD14EF4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servicios.api.Gateway", "Servicios.api.Gateway\Servicios.api.Gateway.csproj", "{0414778E-A839-49A4-A79C-E31E23575019}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{2CFD0C6B-258E-4A2D-ACAF-2D59E9E435A6}"
+	ProjectSection(SolutionItems) = preProject
+		microservice-libreria-pod.yaml = microservice-libreria-pod.yaml
+		microservice-seguridad-pod.yaml = microservice-seguridad-pod.yaml
+		mongo-pod.yaml = mongo-pod.yaml
+		sqlserver-pod.yaml = sqlserver-pod.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
